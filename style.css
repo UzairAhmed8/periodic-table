@@ -1,0 +1,150 @@
+.table{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 250px;
+    cursor: pointer;
+}
+td,tr{
+    padding: 10px;
+    font-size: 25px;
+    border: 1px solid white;
+    font-weight: bolder;
+}
+sup{
+    font-size: 20px;
+    font-weight: 850;
+}
+.hydrogen{
+    color: black;
+    background-color: rgb(60, 123, 168);
+}
+.hydrogen >sup{
+    color: red;
+}
+.hydrogen:hover{
+    color: white;
+    background-color: rgb(37, 97, 120);
+    transition: all 0.3s ease-in-out;
+}
+.helium{
+    color: black;
+    background-color: rgb(128, 64, 128);
+}
+.helium >sup{
+    color: aqua;
+}
+.helium:hover{
+    color: white;
+    background-color: rgb(118, 61, 70);
+    transition: all 0.3s ease-in-out;
+}
+.fam-1{
+    background-color: rgb(167, 54, 54);
+    color: black;
+}
+.fam-1 >sup{
+    color: aqua;
+}
+.fam-1:hover{
+    background-color: rgb(117, 2, 2);
+    color: whitesmoke;
+    transition: all 0.3s ease-in-out; 
+}
+.fam-2{
+    color: black;
+    background-color: gold;
+}
+.fam-2 >sup{
+    color: rgb(56, 56, 242);
+}
+.fam-2:hover{
+    background-color: orange;
+    color: crimson;
+    transition: all 0.3s ease-in-out;
+}
+.fam-3{
+    background-color: #FFEB00;
+    color: black;
+}
+.fam-3:hover{
+    background-color: #FFEB55;
+    color: magenta;
+    transition: all 0.3s ease-in-out;
+}
+.fam-4{
+    background-color: #347928;
+    color: black;
+}
+.fam-4:hover{
+    background-color: #15B392;
+    color: whitesmoke;
+    transition: all 0.3s ease-in-out;
+}
+.fam-5{
+    color: black;
+    background-color: #87A2FF;
+}
+.fam-5:hover{
+    color: whitesmoke;
+    background-color: #A594F9;
+}
+.fam-6{
+    background-color: #D91656;
+    color: black;
+}
+.fam-6:hover{
+    background-color: #EE66A6;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+.blank{
+    background-color: rgb(255, 0, 43);
+    color: black;
+}
+.blank:hover{
+    color: red;
+    background-color: pink;
+    transition: all 0.3s ease-in-out;
+}
+.fam-7{
+    background-color: #9B7EBD;
+    color: black;
+}
+.fam-7:hover{
+    background-color: #3B1E54;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+.table-2{
+    margin-left: 250px;
+    margin-top: 80px;
+    font-weight: bold;
+    border: hidden;
+    cursor: pointer;
+}
+/* td,tr{
+    background-color: #C68FE6;
+    color: black;
+    border-radius: 7px;
+} */
+.table-2 >tr,td >.sup{
+    font-size: 15px;
+}
+.fam-8{
+    background-color: #EE66A6;
+    color: black;
+    /* border-collapse: collapse; */
+}
+.fam-8:hover{
+    background-color: #D91656;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+.heading{
+    font-size: 75px;
+    border: 1px solid black;
+    color: whitesmoke;
+    background-color: red;
+    text-align: center;
+    border-radius: 100px;
+}
